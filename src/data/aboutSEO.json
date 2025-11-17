@@ -1,0 +1,88 @@
+{
+  "title": "About Us - Savannah's Trusted Solar Installation Experts",
+  "description": "Learn about Savannah Solar Power, a family-owned solar installation company serving coastal Georgia. Tesla Powerwall & Enphase certified installers specializing in hurricane-ready solar systems for residential and commercial properties.",
+  "keywords": "solar company Savannah GA, hurricane-ready solar installation, certified solar installers Savannah, Tesla Powerwall certified Savannah, Enphase installers Savannah, solar installation coastal Georgia, NABCEP certified solar Savannah, licensed solar contractors Georgia",
+  "canonicalUrl": "https://savannahsolarpower.com/about",
+  "ogImage": "/images/savannah-solar-team.jpg",
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Savannah Solar Power",
+    "legalName": "C SQUARED POWER LLC",
+    "description": "Hurricane-ready solar installation company serving Savannah, GA and surrounding areas. Tesla Powerwall & Enphase certified installers.",
+    "url": "https://savannahsolarpower.com",
+    "logo": "https://savannahsolarpower.com/images/logo.png",
+    "image": "https://savannahsolarpower.com/images/savannah-solar-team.jpg",
+    "telephone": "+1-XXX-XXX-XXXX",
+    "email": "info@savannahsolarpower.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Savannah",
+      "addressRegion": "GA",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Savannah",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "Pooler"
+      },
+      {
+        "@type": "City",
+        "name": "Richmond Hill"
+      },
+      {
+        "@type": "City",
+        "name": "Hinesville"
+      },
+      {
+        "@type": "City",
+        "name": "Statesboro"
+      }
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "32.0809",
+      "longitude": "-81.0912"
+    },
+    "priceRange": "$$-$$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/savannahsolarpower",
+      "https://www.instagram.com/savannahsolarpower",
+      "https://www.linkedin.com/company/savannah-solar-power"
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "Tesla Powerwall Certified Installer"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "Enphase Platinum Installer"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "NABCEP Certified Professional"
+      }
+    ],
+    "slogan": "Hurricane-Ready Solar Solutions for Coastal Georgia"
+  }
+}

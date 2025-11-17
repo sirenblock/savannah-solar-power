@@ -1,0 +1,67 @@
+Subject: New Website Inquiry - {{fullName}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEW SOLAR INQUIRY FROM WEBSITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTACT INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Name: {{fullName}}
+Email: {{email}}
+Phone: {{phone}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROPERTY INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Address: {{propertyAddress}}
+City: {{city}}
+State: {{state}}
+ZIP: {{zip}}
+Service Area: {{serviceArea}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INTERESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{interests}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROPERTY DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Property Type: {{propertyType}}
+Monthly Electric Bill: {{monthlyBill}}
+Own/Rent: {{ownRent}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MESSAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{message}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTACT PREFERENCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Preferred Contact Method: {{preferredContact}}
+Best Time to Contact: {{bestTime}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUBMISSION DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Submitted: {{submittedAt}}
+Form Variant: {{variant}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NEXT STEPS:
+1. Review the inquiry details above
+2. Contact {{fullName}} via {{preferredContact}} within 24 hours
+3. Prepare for consultation using property information provided
+4. Log the lead in your CRM system
+
+This is an automated notification from the Savannah Solar Power website contact form.

@@ -1,0 +1,424 @@
+/* About Page Styles */
+
+.aboutPage {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #1e293b;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section Styles */
+.section {
+  padding: 80px 20px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #475569;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+
+/* Story Section */
+.storyContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.storyContent p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  color: #475569;
+}
+
+/* Services Section */
+.servicesSection {
+  background-color: #f8fafc;
+}
+
+.servicesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.serviceItem {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.serviceItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.serviceIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.serviceItem h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1e3a8a;
+}
+
+.serviceItem p {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Certifications Section */
+.certificationsSection {
+  background-color: #ffffff;
+}
+
+.certificationsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.certificationBadge {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.certificationBadge:hover {
+  transform: scale(1.05);
+}
+
+.badgeIcon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.certificationBadge h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.certificationBadge p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Trust Points Section */
+.trustPoints {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.trustCard {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  border-left: 4px solid #059669;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.trustCard:hover {
+  transform: translateX(5px);
+}
+
+.trustCard h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.trustCard p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #475569;
+}
+
+/* Service Area Section */
+.serviceAreaSection {
+  background-color: #f8fafc;
+}
+
+.serviceAreas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.areaColumn h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.areaColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.areaColumn li {
+  font-size: 1.125rem;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  color: #475569;
+  position: relative;
+  padding-left: 30px;
+}
+
+.areaColumn li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #059669;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.areaColumn li:last-child {
+  border-bottom: none;
+}
+
+/* Process Section */
+.processSection {
+  background-color: #ffffff;
+}
+
+.processSteps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.processStep {
+  text-align: center;
+  position: relative;
+}
+
+.stepNumber {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.processStep h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.processStep p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #475569;
+}
+
+/* CTA Section */
+.ctaSection {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.ctaSection h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.ctaText {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 16px 40px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primaryButton {
+  background-color: #059669;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.primaryButton:hover {
+  background-color: #10b981;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.secondaryButton {
+  background-color: #ffffff;
+  color: #1e3a8a;
+  border: 2px solid #ffffff;
+}
+
+.secondaryButton:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .hero,
+  .section {
+    padding: 50px 15px;
+  }
+
+  .servicesList,
+  .certificationsList,
+  .trustPoints,
+  .serviceAreas,
+  .processSteps {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .storyContent p {
+    font-size: 1rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .section h2 {
+    font-size: 1.75rem;
+  }
+
+  .serviceItem,
+  .trustCard {
+    padding: 25px;
+  }
+
+  .certificationBadge {
+    padding: 30px 15px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .ctaSection {
+    display: none;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+}

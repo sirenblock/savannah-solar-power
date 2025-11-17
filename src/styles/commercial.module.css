@@ -1,0 +1,201 @@
+/* Commercial Page Styles - Hover effects and responsive enhancements */
+
+/* Button hover effects */
+.cta-button:hover,
+.calculate-button:hover,
+.cta-button-primary:hover,
+.cta-box-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Card hover effects */
+.benefit-card:hover,
+.study-card:hover,
+.financing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.financing-card:hover {
+  border-color: #3b82f6;
+}
+
+/* Input focus effects */
+.roi-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Responsive typography and spacing */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .section,
+  .section-alt {
+    padding: 40px 15px;
+  }
+
+  .cta-section {
+    padding: 60px 20px;
+  }
+
+  .process-step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step-number {
+    margin: 0 auto 15px;
+  }
+
+  .calculator-box {
+    padding: 20px;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-button-primary,
+  .cta-button-secondary {
+    width: 100%;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payback-stat {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefits-grid,
+  .applications-grid,
+  .equipment-grid,
+  .financing-grid,
+  .included-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .input-section {
+    grid-template-columns: 1fr;
+  }
+
+  .calculate-button {
+    align-self: stretch;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print styles */
+@media print {
+  .cta-button,
+  .calculate-button,
+  .cta-button-primary,
+  .cta-button-secondary,
+  .cta-box-button {
+    display: none;
+  }
+
+  .benefit-card,
+  .study-card,
+  .financing-card {
+    break-inside: avoid;
+  }
+}
+
+/* Accessibility improvements */
+button:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+input:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Animation for results appearing */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.results-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Equipment list styling */
+.equipment-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.equipment-list li:last-child {
+  border-bottom: none;
+}
+
+/* Financing list styling */
+.financing-list li {
+  padding: 8px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.financing-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: 700;
+}
+
+/* Included items checkmarks */
+.included-item::before {
+  content: "✓";
+  margin-right: 8px;
+  color: #10b981;
+  font-weight: 700;
+}
+
+/* Application items hover */
+.application-item:hover {
+  background-color: #f3f4f6;
+  transform: scale(1.02);
+  transition: all 0.2s;
+}
+
+/* Loading state for calculator */
+.calculate-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Benefit list styling */
+.benefit-list li {
+  padding: 8px 0;
+}

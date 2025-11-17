@@ -1,0 +1,70 @@
+Subject: We Received Your Solar Inquiry!
+
+Hi {{firstName}},
+
+Thank you for contacting Savannah Solar Power!
+
+We've received your inquiry about {{interests}} and will respond within 24 hours. One of our solar consultants will reach out via {{preferredContact}} {{bestTimeMessage}}.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HELPFUL RESOURCES WHILE YOU WAIT:
+
+💰 Federal Solar Tax Credit
+Learn how to save 30% on your solar installation with the federal investment tax credit.
+→ https://savannahsolarpower.com/financing
+
+⚡ Solar Equipment & Technology
+Explore our premium solar panels, inverters, and battery backup systems.
+→ https://savannahsolarpower.com/equipment
+
+❓ Frequently Asked Questions
+Get answers to common questions about solar installation, costs, and benefits.
+→ https://savannahsolarpower.com/faq
+
+🏠 Customer Success Stories
+Read testimonials from satisfied homeowners and businesses in the Savannah area.
+→ https://savannahsolarpower.com/testimonials
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HAVE AN URGENT QUESTION?
+
+Call us at: {{companyPhone}}
+Email us at: {{companyEmail}}
+
+Office Hours:
+Monday-Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: Closed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY CHOOSE SAVANNAH SOLAR POWER?
+
+✓ Licensed & Insured Georgia Solar Contractor
+✓ Tesla Powerwall Certified
+✓ Enphase Platinum Installer
+✓ NABCEP Certified Professionals
+✓ 25-Year Equipment Warranties
+✓ Local Company Serving Coastal Georgia
+
+We're excited to help you make the switch to clean, renewable solar energy!
+
+Best regards,
+The Savannah Solar Power Team
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+C SQUARED POWER LLC
+Savannah, GA
+Phone: {{companyPhone}}
+Email: {{companyEmail}}
+Website: {{companyWebsite}}
+
+Licensed & Insured | Tesla Powerwall Certified | Enphase Platinum Installer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This is an automated confirmation message. Please do not reply to this email.
+If you need immediate assistance, please call us at {{companyPhone}}.
